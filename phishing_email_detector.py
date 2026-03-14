@@ -33,13 +33,13 @@ def phishing_email_detector():
         print("------------------------")
         print(f"Analyzed subject: \"{subject_line}\"")
 
-    elif "password_reset" in subject_line:
+    elif "password reset" in subject_line:
         print("SECURITY ASSESSMENT:\nLOW RISK: Verify legitimacy with sender.")
         print("------------------------")
         print(f"Analyzed subject: \"{subject_line}\"")
        
     else:
-        print("SECURITY ASSESSMENT:\nLOW RISK: No phishing indicators detected.")
+        print("SECURITY ASSESSMENT:\nNo phishing indicators detected.")
         print("------------------------")
         print(f"Analyzed subject: \"{subject_line}\"")
 
